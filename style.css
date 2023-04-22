@@ -1,0 +1,995 @@
+@font-face {
+	font-family: 'Proxima Nova Alt Rg';
+	src: url('fonts/ProximaNovaA-Regular.woff2') format('woff2'),
+		url('fonts/ProximaNovaA-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'ProximaNova';
+	src: url(./fonts/Proxima\ Nova\ Font.otf);
+}
+body {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: 'Proxima Nova Alt Rg';
+	font-family: 'ProximaNova';
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+/* header */
+header {
+	width: 100%;
+	padding: 15px 0px;
+	box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.3);
+}
+.header_in {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.container-fluid {
+	padding: 0px 60px;
+}
+.navbar_logo {
+	display: inline-block;
+	padding-top: 0.3125rem;
+	padding-bottom: 0.3125rem;
+	font-size: 1.25rem;
+	white-space: nowrap;
+}
+
+.desktop_nav ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+
+	gap: 25px;
+}
+.desktop_nav ul li {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 123%;
+	text-transform: capitalize;
+}
+
+.desktop_nav a {
+	text-decoration: none;
+	color: black;
+}
+.btn_free-consult {
+	border: none;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 28px;
+	background-color: #ffee00;
+	border-radius: 32.5px;
+	padding: 10px 15px;
+	position: relative;
+	top: 10px;
+}
+
+/* header end */
+
+/* section--start */
+
+.section {
+	height: 100vh;
+}
+.banner_img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 120px;
+	left: 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.banner_text {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+}
+.begins_para {
+	font-family: 'ProximaNova';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 48px;
+	line-height: 54px;
+	display: flex;
+	align-items: center;
+
+	color: #303030;
+}
+.bannertext_in {
+	width: 40%;
+	position: absolute;
+	left: 70px;
+}
+.head_feeling_better {
+	font-family: 'Gotcha Standup';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 90px;
+	line-height: 129px;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.055em;
+
+	color: #1d72dd;
+}
+.get_match {
+	font-family: 'ProximaNova';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 37px;
+	/* or 154% */
+
+	letter-spacing: 0.015em;
+
+	color: #303030;
+}
+.btn_get_match {
+	border: none;
+	background-color: #ffee00;
+	border-radius: 32.5px;
+	padding: 9.8px;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	position: relative;
+	right: 3px;
+}
+
+/* old code */
+
+/* feeling better */
+
+h6 {
+	color: #3875e6;
+}
+
+@font-face {
+	font-family: myFirstFont;
+	src: url(./fonts/gotcha-standup.ttf);
+}
+
+.feeling_Better {
+	font-family: myFirstFont;
+	color: #1d72dd;
+	letter-spacing: 0.3rem;
+}
+.find {
+	color: #3875e6;
+	margin-top: 8px;
+}
+
+.begins {
+	font-family: ProximaNova;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 63px;
+}
+input[type='text'] {
+	width: 450px;
+	height: 42px;
+
+	border-bottom-left-radius: 0px;
+	border-top-left-radius: 0px;
+	border-radius: 32.5px;
+	border-bottom-right-radius: 0px;
+	border-top-right-radius: 0px;
+
+	padding: 3.7px;
+	border: none;
+	margin-top: 10px;
+}
+/* ::placeholder {
+	font-size: 1em;
+	padding: px;
+} */
+
+.btn-get-matched {
+	background-color: yellow;
+	border: none;
+	padding: 9px;
+	position: relative;
+	right: 3.9px;
+	border-bottom-left-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.feeling-container {
+	display: flex;
+}
+.left_feeling_better {
+	position: absolute;
+	left: 91px;
+	top: 236px;
+}
+.right_feeling_better_banner img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+/* Therapist */
+
+.therapist {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #436986;
+	height: 15vh;
+	margin-top: 3px;
+}
+.therapist-left {
+	/* color: #ffffff;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 28px; */
+
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+	color: #ffffff;
+}
+.therapist-right-btn {
+	padding: 10px 35px;
+	background-color: yellow;
+	border: none;
+	border-radius: 2pc;
+}
+.finding-the-Therapist {
+	height: 30vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.finding-the-Therapist-top {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 58px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.number-para {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.number-txt {
+	width: 40%;
+	height: 40%;
+	text-align: center;
+}
+.photos-txt {
+	display: flex;
+	justify-content: space-around;
+	gap: 42px;
+	align-items: center;
+	padding: 50px;
+}
+.photos-left img {
+	height: auto;
+	max-width: 100%;
+	object-fit: cover;
+}
+.photos-left {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 14px;
+}
+.photos-up {
+	display: grid;
+	grid-column-gap: 10px;
+
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.photos-down {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-column-gap: 10px;
+}
+.photos-down img {
+	height: auto;
+	width: 100%;
+	object-fit: cover;
+}
+.number-para-container {
+	background: url('./images/blue_bg.png');
+	padding: 60px 85px;
+	text-align: left;
+	background-repeat: no-repeat;
+}
+.curve img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.number {
+	color: yellow;
+	font-family: 'Proxima Nova Alt Rg';
+	font-weight: 600;
+	font-size: 30px;
+	font-weight: 600;
+	font-size: 50px;
+	line-height: 75px;
+}
+.text {
+	color: white;
+	font-family: 'Proxima Nova';
+	margin-top: 15px;
+	font-size: 24px;
+	line-height: 37px;
+}
+
+.txt-right {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+	font-family: ProximaNova;
+	color: white;
+}
+.therapist-btn {
+	border: 1px solid #ffee00;
+	border-radius: 32.5px;
+	padding: 15px 30px;
+	background-color: #436986;
+	color: white;
+}
+.helped {
+	margin-bottom: 40px;
+	line-height: 20px;
+	font-size: 45px;
+	line-height: 50px;
+	font-weight: 700;
+}
+.txt-right-para .looking_for_helped {
+	line-height: 25px;
+	letter-spacing: 0.0015em;
+	font-weight: 400;
+	margin-bottom: 12px;
+}
+.txt-right-para .looking_for_helped:last-child {
+	margin-bottom: 0;
+}
+.therapist-btn {
+	margin-top: 40px;
+}
+
+.help-you {
+	text-align: center;
+	font-family: 'Proxima Nova Alt Rg';
+}
+
+.photos-txt img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.therapy-para {
+	font-family: 'Proxima Nova';
+	text-align: center;
+}
+.btn-free-consult {
+	text-align: center;
+}
+.btn-free-consult button {
+	background-color: yellow;
+	border: none;
+	padding: 10px 30px;
+	border-radius: 32.5px;
+}
+.deserve-container {
+	text-align: center;
+	font-family: 'Proxima Nova';
+	margin-top: 50px;
+	margin-bottom: 50px;
+	display: flex;
+	gap: 10px;
+	flex-direction: column;
+}
+.effective-therapy {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 35px;
+	line-height: 30px;
+}
+.highly-trained {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 31px;
+}
+
+.our_client {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 15px;
+	background-color: #436986;
+	padding: 30px 30px;
+}
+
+.carousel-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 40vw;
+	height: 32vh;
+	color: white;
+}
+.inverted-comma {
+	width: 98.9vw;
+	border-bottom: 1px solid transparent;
+}
+.double-quotes {
+	background-color: yellowgreen;
+	padding: 10px 10px;
+	border-radius: 40px;
+	height: 65px;
+	width: 65px;
+
+	background: #ffffff;
+	box-shadow: 0px -4px 56px rgba(67, 105, 134, 0.25);
+	border-radius: 50%;
+	display: inline-block;
+	position: relative;
+	top: 30px;
+	left: 727px;
+}
+.double-quotes img {
+	height: 20px;
+	position: absolute;
+	top: 22px;
+	left: 20px;
+}
+.img-txt {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.imges img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	position: relative;
+	right: 120px;
+}
+
+.imges .img-2 {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	position: relative;
+	left: 230px;
+}
+
+.paragraph-1 {
+	width: 480px;
+	height: 261px;
+	position: absolute;
+	text-align: left;
+	right: 120px;
+	background: #ffffff;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+	padding: 25px 15px;
+}
+.paragraph-2 {
+	width: 480px;
+	height: 270px;
+	padding: 15px;
+	position: absolute;
+	text-align: left;
+	padding: 25px 15px;
+	z-index: 1;
+	left: 140px;
+	background: #ffffff;
+	box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
+}
+.paragraph-3 {
+	width: 480px;
+	padding: 25px 15px;
+	height: 270px;
+	text-align: left;
+	position: absolute;
+
+	right: 120px;
+	background: #ffffff;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.feel_better {
+	text-align: center;
+	padding: 70px 340px 70px 250px;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 5.5rem;
+}
+
+.path_to_feel {
+	margin-bottom: 60px;
+}
+.icon {
+	width: 11%;
+	background-color: yellow;
+	border-radius: 50%;
+	text-align: center;
+	padding: 9px 2px 2px 2px;
+}
+
+@font-face {
+	font-family: 'Helvetica';
+	src: url('/fonts/helvetica/Helvetica.woff') format('woff'),
+		url('/fonts/helvetica/Helvetica.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+.btn-get-matched-therapist button {
+	background-color: yellow;
+	border: none;
+	border-radius: 32.5px;
+	padding: 10px 20px;
+	font-family: 'Helvetica';
+}
+
+.curve-bottom {
+	background-color: white;
+	position: relative;
+
+	height: 10px;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+}
+.circle-sticker {
+	height: 65px;
+	width: 65px;
+	border-radius: 50%;
+	box-shadow: 0px 4px 56px rgba(67, 105, 134, 0.25);
+	position: absolute;
+	bottom: -18px;
+	left: 45.6%;
+	background-color: white;
+}
+.heart-sticker {
+	position: absolute;
+	top: 20px;
+	left: 17px;
+}
+.curve_heart {
+	position: relative;
+	left: 725px;
+	bottom: 85px;
+	border-radius: 50%;
+	background-color: white;
+	width: 65px;
+	height: 65px;
+	box-shadow: 0px 4px 56px rgba(67, 105, 134, 0.25);
+}
+.curve_heart img {
+	position: absolute;
+	left: 17.8px;
+	top: 18px;
+}
+
+.container_icon {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	gap: 55px;
+	padding: 20px;
+}
+.apa_logo-txt {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+}
+.heading-psychotherapy-training {
+	height: 60%;
+	width: 50%;
+	padding: 40px;
+	text-align: center;
+	margin: auto;
+}
+
+.logo img {
+	width: 100%;
+	height: auto;
+	object-fit: contain;
+}
+.img_logo_1 {
+	width: 50%;
+	height: 20%;
+	position: relative;
+	left: 150px;
+}
+.img_logo_2 {
+	width: 90%;
+	position: relative;
+	right: 220px;
+}
+.img_logo_3 {
+	width: 90%;
+	position: relative;
+	right: 220px;
+}
+.img_logo_4 {
+	width: 90%;
+	position: relative;
+	right: 170px;
+}
+
+.three_logo {
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	right: 105px;
+	gap: 25px;
+	text-align: center;
+}
+
+.card_container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.img_para {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.band_img img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.band_img img:hover {
+	border: 1px solid red;
+	background-color: white;
+	border-style: outset;
+	padding: 15px;
+}
+
+.latest_news_container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.photos_para {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 25px;
+	padding: 30px 60px;
+}
+.latest_heading {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.book_shell_img img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.book_shell_img:hover {
+	border: 1px solid red;
+	background-color: white;
+	border-style: outset;
+	padding: 15px;
+}
+.books_img img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.books_img img:hover {
+	border: 1px solid red;
+	background-color: white;
+	border-style: outset;
+	padding: 15px;
+}
+
+.para_info a {
+	text-decoration: none;
+	font-family: 'Inter', sans-serif;
+}
+
+.latest_heading {
+	font-family: 'Proxima Nova Alt';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 129.69%;
+	text-align: center;
+}
+
+.stress {
+	color: #436986;
+}
+.stress:hover {
+	text-decoration: underline blue;
+	border: 1px solid red;
+	border-style: outset;
+	width: 50%;
+	height: 50%;
+}
+.how_to_learn a:hover {
+	text-decoration: underline;
+}
+.lorem_info:hover {
+	text-decoration: underline blue;
+
+	border: 1px solid red;
+	border-style: outset;
+}
+.para_info {
+	padding: 20px 0px;
+}
+.how_to_learn {
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 30px;
+	text-transform: capitalize;
+	color: #1f1f1f;
+}
+.how_to_learn:hover {
+	text-decoration: underline blue;
+
+	border: 1px solid red;
+	border-style: outset;
+}
+
+.lorem_info {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 32p;
+	text-transform: capitalize;
+	color: #1f1f1f;
+}
+
+/* Footer */
+
+.heading_search {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+	background: #ffffff;
+	box-shadow: 0px -4px 56px rgba(67, 105, 134, 0.2);
+	width: 1184px;
+	height: 179px;
+	margin: auto;
+	position: relative;
+	bottom: 85px;
+}
+.high-quality {
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 31px;
+	letter-spacing: 0.015em;
+}
+.good_tips_header {
+	color: #436986;
+	font-family: 'Proxima Nova';
+}
+.search_bar {
+	position: relative;
+	bottom: 15px;
+}
+.good_tips {
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 24px;
+
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+}
+.footer {
+	background: #436986;
+	position: relative;
+	top: 160px;
+}
+
+.footer_container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 70px;
+	width: 1271px;
+	height: 179px;
+}
+.find_a_therapist_container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.copyright_icon {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.foot_icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.border_bottom {
+	border-bottom: 1px solid white;
+	margin: auto;
+	width: 85%;
+}
+
+.above_claim {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 23px;
+	text-align: center;
+	text-transform: capitalize;
+	color: #ffffff;
+	opacity: 0.43;
+}
+.above_claim_para {
+	width: 1102px;
+	height: 65.06px;
+	margin: auto;
+}
+.container_icon_para {
+	gap: 87px;
+	margin-left: 69px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.find-a-therapist {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-direction: column;
+	width: 178px;
+	gap: 8px;
+	padding: 40px 0px;
+}
+.find-a-therapist a {
+	text-decoration: none;
+	color: white;
+}
+
+.find-a-therapist-heading {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 32px;
+	text-transform: capitalize;
+	color: #ffee00;
+}
+.above_claim {
+	padding: 40px 0px;
+}
+.last_logo img {
+	width: 100%;
+	height: auto;
+	object-fit: contain;
+}
+.last_logo {
+	margin-top: 45px;
+}
+.good_now {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 32px;
+	/* or 200% */
+
+	text-transform: capitalize;
+
+	color: #ffffff;
+}
+.follow_us {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 32px;
+	/* or 200% */
+
+	text-transform: capitalize;
+
+	color: #ffffff;
+}
+.foot_icon {
+	display: flex;
+	gap: 20px;
+}
+.icon_media a {
+	color: yellow;
+
+	text-decoration: none;
+}
+.icon_media {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	margin-bottom: 5px;
+	gap: 20px;
+}
+.btn-sign-up {
+	background-color: #ffee00;
+	border: none;
+	padding: 10px 24px;
+	position: relative;
+	right: 4px;
+	border-bottom-left-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 35px;
+	border-bottom-right-radius: 35px;
+}
+
+/* Media Query for 1500px */
+
+/* header section */
+@media only screen and (min-width: 1500px) {
+}
